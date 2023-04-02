@@ -31,17 +31,6 @@ body {
 	flex: 1 1 auto;
 }
 
-.page__main {}
-
-.page__clients {}
-
-.page__services {}
-
-.page__advantages {}
-
-.page__testimonials {}
-
-.page__blog {}
 
 .page__start {
 	margin-bottom: 100px;
@@ -86,8 +75,6 @@ body {
 .button_dark:hover {
 	background: rgba(129, 129, 139, 0.4);
 }
-
-.header-main {}
 
 .header-main__label {
 	display: inline-block;
@@ -159,10 +146,6 @@ body {
 	column-gap: 32px;
 	row-gap: 15px;
 }
-
-.header-main__button {}
-
-.header-main__list {}
 
 .header-main__list li {
 	position: relative;
@@ -261,17 +244,10 @@ body {
 	padding-bottom: 5px;
 }
 
-.header__logo {}
-
 .header__menu {
 	flex: 1 1 auto;
 }
 
-.menu {}
-
-.menu__icon {}
-
-.menu__body {}
 
 .menu__list {
 	display: flex;
@@ -280,8 +256,6 @@ body {
 	row-gap: 3px;
 	justify-content: flex-end;
 }
-
-.menu__item {}
 
 .menu__link {
 	display: block;
@@ -294,8 +268,6 @@ body {
 .menu__link:hover {
 	text-decoration: underline;
 }
-
-.header__cart {}
 
 .cart-header {
 	color: #fff;
@@ -505,10 +477,6 @@ body {
 	color: #9c9c9c;
 }
 
-.main__actions {}
-
-.main__button {}
-
 .main__images {
 	flex: 0 1 50%;
 }
@@ -571,15 +539,11 @@ body {
 }
 
 /*==== Clients =============================================================*/
-.page__clients{
 
-}
 .clients {
 	padding-top: 100px;
 	padding-bottom: 70px;
 }
-
-.clients__container {}
 
 .clients__title {
 	text-transform: uppercase;
@@ -646,8 +610,6 @@ body {
 	align-self: center;
 }
 
-.services__header {}
-
 .services__items {
 	flex: 0 1 50%;
 	display: flex;
@@ -655,13 +617,9 @@ body {
 	justify-content: center;
 }
 
-.services__column {}
-
 .services__column:first-child {
 	padding-top: 48px;
 }
-
-.services__item {}
 
 .services__item:not(:last-child) {
 	margin-bottom: 32px;
@@ -675,8 +633,6 @@ body {
 	 /*width: 315px;
 	 height: 340px;*/
 }
-
-.item-service__icon {}
 
 .item-service__icon:not(:last-child) {
 	margin-bottom: 16px;
@@ -693,8 +649,6 @@ body {
 .item-service__title:not(:last-child) {
 	margin-bottom: 10px;
 }
-
-.item-service__text {}
 
 @media (max-width: 1100px) {
 	.services__container {
@@ -774,8 +728,6 @@ body {
 	flex: 0 1 50%;
 	align-self: center;
 }
-
-.why__header {}
 
 .images-why::before {
 	content: "";
@@ -896,8 +848,6 @@ body {
 	padding-bottom: 100px;
 }
 
-.testimonials__container {}
-
 .testimonials__header {
 	margin-bottom: 64px;
 }
@@ -908,8 +858,6 @@ body {
 	gap: 32px;
 }
 
-.testimonials__item {}
-
 .item-testimonial {
 	padding: 64px 40px;
 	background: rgba(129, 129, 139, 0.1);
@@ -918,8 +866,6 @@ body {
 	flex-direction: column;
 	gap: 32px;
 }
-
-.item-testimonial__user {}
 
 .user-testimonial {
 	display: flex;
@@ -949,8 +895,6 @@ body {
 	border-radius: 50% 50% 0% 50%;
 }
 
-.user-testimonial__body {}
-
 .user-testimonial__title {
 	line-height: 1.5;
 	color: #fff;
@@ -979,8 +923,6 @@ body {
 	line-height: 1.5;
 	
 }
-
-.item-testimonial__rating {}
 
 @media (max-width: 1100px) {
 	.testimonials__items {
@@ -1016,8 +958,6 @@ body {
 	padding-bottom: 200px;
 }
 
-.blog__container {}
-
 .blog__header {
 	margin-bottom: 64px;
 }
@@ -1028,7 +968,6 @@ body {
 	grid-template-columns: repeat(3, 1fr);
 }
 
-.blog__item {}
 
 .item-blog {
 	background: rgba(129, 129, 139, 0.1);
@@ -1099,10 +1038,6 @@ body {
 	margin-bottom: 30px;
 }
 
-.item-blog__link-title {}
-
-.item-blog__text {}
-
 .item-blog__text:not(:last-child) {
 	margin-bottom: 21px;
 }
@@ -1152,9 +1087,6 @@ body {
 }
 
 /* ================ Start ==================*/
-.start {}
-
-.start__container {}
 
 .start__body {
 	background: rgba(129, 129, 139, 0.1);
@@ -1193,8 +1125,6 @@ body {
 	justify-content: center;
 }
 
-.start__button {}
-
 @media (max-width: 991.98px) {
 	.start__body {
 		align-items: stretch;
@@ -1216,7 +1146,6 @@ body {
 }
 
 /* ========== Footer ==========================*/
-.footer {}
 
 .footer__main {
 	padding-top: 160px;
@@ -1236,8 +1165,6 @@ body {
 		padding-bottom: 40px;
 	}
 }
-
-.main-footer {}
 
 .main-footer__container {
 	display: grid;
@@ -1277,12 +1204,6 @@ body {
 	gap: 30px;
 }
 
-.main-footer__logo {}
-
-.main-footer__text {}
-
-.main-footer__social {}
-
 .social {
 	display: flex;
 	gap: 16px;
@@ -1311,16 +1232,10 @@ body {
 	
 }
 
-.main-footer__menu {}
-
-.menu-footer {}
-
 .menu-footer__list {
 	display: grid;
 	gap: 24px;
 }
-
-.menu-footer__item {}
 
 .menu-footer__link {
 	line-height: 1.4;
@@ -1329,8 +1244,6 @@ body {
 .menu-footer__link:hover {
 	color: #fff;
 }
-
-.main-footer__subscribe {}
 
 .subscribe {
 	display: flex;
@@ -1356,10 +1269,6 @@ body {
 .subscribe__input::placeholder {
 	color: #999999;
 }
-
-.subscribe__button {}
-
-.footer__bottom {}
 
 .bottom-footer {
 	border-top: 1px solid rgba(129, 129, 139, 0.2);
