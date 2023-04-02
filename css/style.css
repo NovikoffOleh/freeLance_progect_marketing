@@ -1375,3 +1375,8 @@ body {
 		padding-bottom: 30px;
 	}
 }
+.copyright{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
