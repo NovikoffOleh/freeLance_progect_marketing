@@ -599,9 +599,14 @@ body {
 	justify-content: space-around;
 }
 
+
 .clients__item img {
 	max-width: 100%;
 }
+.clients__item img:hover {
+	opacity: 0.5;
+}
+
 
 @media (max-width: 991.98px) {
 	.clients {
